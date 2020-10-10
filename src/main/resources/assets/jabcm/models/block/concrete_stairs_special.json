@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "jabcm:blocks/concrete_stairs_special",
+        "top": "jabcm:blocks/concrete_stairs_special",
+        "side": "jabcm:blocks/concrete_stairs_special"
+    }
+}

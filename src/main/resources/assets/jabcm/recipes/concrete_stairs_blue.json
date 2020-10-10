@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:concrete",
+      "data": 11
+    }
+  },
+  "result": {
+    "item": "jabcm:concrete_stairs_blue",
+    "count": 4
+  }
+}
