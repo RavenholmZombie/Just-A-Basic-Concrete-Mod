@@ -1,4 +1,4 @@
-![JABCM Logo](https://raw.githubusercontent.com/RavenholmZombie/Just-A-Basic-Concrete-Mod/master/src/main/resources/assets/logo.png)
+![JABCM Logo](https://i.imgur.com/XsDMlV3.gif)
 
 JABCM is a simple mod that adds concrete stairs and slabs.
 
