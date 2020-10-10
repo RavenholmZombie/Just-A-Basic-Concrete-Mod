@@ -35,6 +35,10 @@ public class ModBlocks
 	public static Block concrete_stairs_black = new JABCMStairs("concrete_stairs_black", Blocks.CONCRETE.getDefaultState());
 	
 	// OMG HE FINALLY ADDED SLABS :O yay woohoo *crowd cheers as fireworks explode off in the distance and a marching band playing Hail to the Chief marches by*
+	// Rainbow Slab
+	public static final BlockSlab double_slab_special = new BlockDoubleSlabBase("double_slab_special", Material.ROCK, ModBlocks.half_slab_special);
+	public static final BlockSlab half_slab_special = new BlockHalfSlabBase("half_slab_special", Material.ROCK, ModBlocks.half_slab_special, ModBlocks.double_slab_special);
+	
 	// White
 	public static final BlockSlab double_slab_white = new BlockDoubleSlabBase("double_slab_white", Material.ROCK, ModBlocks.half_slab_white);
 	public static final BlockSlab half_slab_white = new BlockHalfSlabBase("half_slab_white", Material.ROCK, ModBlocks.half_slab_white, ModBlocks.double_slab_white);
@@ -44,6 +48,12 @@ public class ModBlocks
 	// Magenta
 	public static final BlockSlab double_slab_magenta = new BlockDoubleSlabBase("double_slab_magenta", Material.ROCK, ModBlocks.half_slab_magenta);
 	public static final BlockSlab half_slab_magenta = new BlockHalfSlabBase("half_slab_magenta", Material.ROCK, ModBlocks.half_slab_magenta, ModBlocks.double_slab_magenta);
+	// Blue
+	public static final BlockSlab double_slab_blue = new BlockDoubleSlabBase("double_slab_blue", Material.ROCK, ModBlocks.half_slab_blue);
+	public static final BlockSlab half_slab_blue = new BlockHalfSlabBase("half_slab_blue", Material.ROCK, ModBlocks.half_slab_blue, ModBlocks.double_slab_blue);
+	// Light Blue
+	public static final BlockSlab double_slab_lblue = new BlockDoubleSlabBase("double_slab_lblue", Material.ROCK, ModBlocks.half_slab_lblue);
+	public static final BlockSlab half_slab_lblue = new BlockHalfSlabBase("half_slab_lblue", Material.ROCK, ModBlocks.half_slab_lblue, ModBlocks.double_slab_lblue);
 	
 	
 	// Super duper special rainbow blocks ^_^

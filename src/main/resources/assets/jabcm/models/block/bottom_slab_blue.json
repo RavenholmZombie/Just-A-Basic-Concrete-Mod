@@ -1,0 +1,9 @@
+{
+    "parent": "block/half_slab",
+    "textures":
+    {
+        "bottom": "blocks/concrete_blue",
+        "top": "blocks/concrete_blue",
+        "side": "blocks/concrete_blue"
+    }
+}

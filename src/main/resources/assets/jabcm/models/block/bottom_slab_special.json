@@ -1,0 +1,9 @@
+{
+    "parent": "block/half_slab",
+    "textures":
+    {
+        "bottom": "jabcm:blocks/concrete_special",
+        "top": "jabcm:blocks/concrete_special",
+        "side": "jabcm:blocks/concrete_special"
+    }
+}
