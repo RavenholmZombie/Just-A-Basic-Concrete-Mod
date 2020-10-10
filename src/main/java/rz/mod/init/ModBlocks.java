@@ -34,9 +34,6 @@ public class ModBlocks
 	public static Block concrete_stairs_red = new JABCMStairs("concrete_stairs_red", Blocks.CONCRETE.getDefaultState());
 	public static Block concrete_stairs_black = new JABCMStairs("concrete_stairs_black", Blocks.CONCRETE.getDefaultState());
 	
-	// Test stairs block to find rendering bug. Will be removed before release.
-	public static Block concrete_stairs_test = new JABCMStairs("concrete_stairs_test", Blocks.CONCRETE.getDefaultState());
-	
 	// OMG WE FINALLY ADDED SLABS :O yay woohoo *crowd cheers as fireworks explode off in the distance and a marching band playing Hail to the Chief marches by*
 	// Rainbow Slab
 	public static final BlockSlab double_slab_special = new BlockDoubleSlabBase("double_slab_special", Material.ROCK, ModBlocks.half_slab_special);
