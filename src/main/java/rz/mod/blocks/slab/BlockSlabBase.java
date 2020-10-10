@@ -51,8 +51,8 @@ public abstract class BlockSlabBase extends BlockSlab
 	@Override
 	public IBlockState getStateFromMeta(int meta)
 	{
+		// This makes the slabs behave properly between world reloads.
 		IBlockState state = this.blockState.getBaseState().withProperty(VARIANT, Variant.DEFAULT);
-		//if(!this.isDouble() && state.getValue(HALF) == EnumBlockHalf.TOP) meta |= 8;
 		
 		if(!this.isDouble())
 		{

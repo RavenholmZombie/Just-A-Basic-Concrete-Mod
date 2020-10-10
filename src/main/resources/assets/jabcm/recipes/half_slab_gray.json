@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:concrete",
+			"data": 7
+        }
+    },
+    "result": {
+        "item": "jabcm:half_slab_gray",
+		"data": 0,
+        "count": 6
+    }
+}
