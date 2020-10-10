@@ -1,3 +1,4 @@
+//Stairs
 tile.concrete_stairs_white.name=White Concrete Stairs
 tile.concrete_stairs_orange.name=Orange Concrete Stairs
 tile.concrete_stairs_magenta.name=Magenta Concrete Stairs
@@ -30,3 +31,17 @@ tile.half_slab_lblue.name=Light Blue Concrete Slab
 tile.double_slab_lblue.name=Light Blue Concrete Slab
 tile.half_slab_special.name=Rainbow Concrete Slab
 tile.double_slab_special.name=Rainbow Concrete Slab
+tile.half_slab_yellow.name=Yellow Concrete Slab
+tile.double_slab_yellow.name=Yellow Concrete Slab
+tile.half_slab_lime.name=Lime Concrete Slab
+tile.double_slab_lime.name=Lime Concrete Slab
+tile.half_slab_pink.name=Pink Concrete Slab
+tile.double_slab_pink.name=Pink Concrete Slab
+tile.half_slab_gray.name=Gray Concrete Slab
+tile.double_slab_gray.name=Gray Concrete Slab
+tile.half_slab_silver.name=Light Gray Concrete Slab
+tile.double_slab_silver.name=Light Gray Concrete Slab
+tile.half_slab_cyan.name=Cyan Concrete Slab
+tile.double_slab_cyan.name=Cyan Concrete Slab
+tile.half_slab_purple.name=Purple Concrete Slab
+tile.double_slab_purple.name=Purple Concrete Slab

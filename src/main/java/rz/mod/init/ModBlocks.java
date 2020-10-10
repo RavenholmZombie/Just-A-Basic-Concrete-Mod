@@ -54,6 +54,27 @@ public class ModBlocks
 	// Light Blue
 	public static final BlockSlab double_slab_lblue = new BlockDoubleSlabBase("double_slab_lblue", Material.ROCK, ModBlocks.half_slab_lblue);
 	public static final BlockSlab half_slab_lblue = new BlockHalfSlabBase("half_slab_lblue", Material.ROCK, ModBlocks.half_slab_lblue, ModBlocks.double_slab_lblue);
+	// Yellow
+	public static final BlockSlab double_slab_yellow = new BlockDoubleSlabBase("double_slab_yellow", Material.ROCK, ModBlocks.half_slab_yellow);
+	public static final BlockSlab half_slab_yellow = new BlockHalfSlabBase("half_slab_yellow", Material.ROCK, ModBlocks.half_slab_yellow, ModBlocks.double_slab_yellow);
+	// Coca-Cola with Lime (Hey Coke, bring this back please!!!)
+	public static final BlockSlab double_slab_lime = new BlockDoubleSlabBase("double_slab_lime", Material.ROCK, ModBlocks.half_slab_lime);
+	public static final BlockSlab half_slab_lime = new BlockHalfSlabBase("half_slab_lime", Material.ROCK, ModBlocks.half_slab_lime, ModBlocks.double_slab_lime);
+	// Pink
+	public static final BlockSlab double_slab_pink = new BlockDoubleSlabBase("double_slab_pink", Material.ROCK, ModBlocks.half_slab_pink);
+	public static final BlockSlab half_slab_pink = new BlockHalfSlabBase("half_slab_pink", Material.ROCK, ModBlocks.half_slab_pink, ModBlocks.double_slab_pink);
+	// Gray
+	public static final BlockSlab double_slab_gray = new BlockDoubleSlabBase("double_slab_gray", Material.ROCK, ModBlocks.half_slab_gray);
+	public static final BlockSlab half_slab_gray = new BlockHalfSlabBase("half_slab_gray", Material.ROCK, ModBlocks.half_slab_gray, ModBlocks.double_slab_gray);
+	// Silver
+	public static final BlockSlab double_slab_silver = new BlockDoubleSlabBase("double_slab_silver", Material.ROCK, ModBlocks.half_slab_silver);
+	public static final BlockSlab half_slab_silver = new BlockHalfSlabBase("half_slab_silver", Material.ROCK, ModBlocks.half_slab_silver, ModBlocks.double_slab_silver);
+	// Cyan
+	public static final BlockSlab double_slab_cyan = new BlockDoubleSlabBase("double_slab_cyan", Material.ROCK, ModBlocks.half_slab_cyan);
+	public static final BlockSlab half_slab_cyan = new BlockHalfSlabBase("half_slab_cyan", Material.ROCK, ModBlocks.half_slab_cyan, ModBlocks.double_slab_cyan);
+	// Purple
+	public static final BlockSlab double_slab_purple = new BlockDoubleSlabBase("double_slab_purple", Material.ROCK, ModBlocks.half_slab_purple);
+	public static final BlockSlab half_slab_purple = new BlockHalfSlabBase("half_slab_purple", Material.ROCK, ModBlocks.half_slab_purple, ModBlocks.double_slab_purple);
 	
 	
 	// Super duper special rainbow blocks ^_^
