@@ -3,6 +3,7 @@ package rz.mod.init;
 import java.util.List;
 
 import net.minecraft.block.BlockStairs;
+import net.minecraft.block.SoundType;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.creativetab.CreativeTabs;
@@ -20,6 +21,11 @@ public class JABCMStairs extends BlockStairs implements IHasModel
 		super(modelState);
 		setUnlocalizedName(name);
 		setRegistryName(name);
+		setHardness(1.8F);
+		setResistance(1.8F);
+		setSoundType(SoundType.STONE);
+		setHarvestLevel("pickaxe", 0);
+		
 		this.useNeighborBrightness = true;
 		
 		ModBlocks.BLOCKS.add(this);

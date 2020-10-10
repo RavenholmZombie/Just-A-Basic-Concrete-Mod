@@ -1,4 +1,5 @@
 //Stairs
+tile.concrete_stairs_test.name=Test Stairs
 tile.concrete_stairs_white.name=White Concrete Stairs
 tile.concrete_stairs_orange.name=Orange Concrete Stairs
 tile.concrete_stairs_magenta.name=Magenta Concrete Stairs
