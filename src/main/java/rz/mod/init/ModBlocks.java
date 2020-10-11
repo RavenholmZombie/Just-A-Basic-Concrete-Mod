@@ -9,6 +9,8 @@ import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import rz.mod.blocks.BlockBase;
+import rz.mod.blocks.JABCMFence;
+import rz.mod.blocks.JABCMPlate;
 import rz.mod.blocks.slab.BlockDoubleSlabBase;
 import rz.mod.blocks.slab.BlockHalfSlabBase;
 
@@ -88,9 +90,13 @@ public class ModBlocks
 	public static final BlockSlab double_slab_black = new BlockDoubleSlabBase("double_slab_black", Material.ROCK, ModBlocks.half_slab_black);
 	public static final BlockSlab half_slab_black = new BlockHalfSlabBase("half_slab_black", Material.ROCK, ModBlocks.half_slab_black, ModBlocks.double_slab_black);
 	
-	
 	// Super duper special rainbow blocks ^_^
 	public static Block concrete_special = new BlockBase("concrete_special", Material.ROCK);
 	public static Block concrete_stairs_special = new JABCMStairs("concrete_stairs_special", Blocks.CONCRETE.getDefaultState());
 	
+	// Fences
+	public static Block white_fence = new JABCMFence("white_fence");
+	
+	// Pressure Plates
+	public static Block white_plate = new JABCMPlate("white_plate");
 }
