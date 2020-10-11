@@ -18,7 +18,7 @@ public class JABCMPlate extends BlockPressurePlate implements IHasModel
 		super(Material.ROCK, level);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(CreativeTabs.REDSTONE);
+		setCreativeTab(Main.JABCMTABREDSTONE);
 		setSoundType(SoundType.STONE);
 		setHardness(8.0F);
 		setResistance(8.0F);

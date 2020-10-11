@@ -96,12 +96,14 @@ public class ModBlocks
 	public static Block concrete_stairs_special = new JABCMStairs("concrete_stairs_special", Blocks.CONCRETE.getDefaultState());
 	
 	// Fences
+	public static Block special_fence = new JABCMFence("special_fence");
 	public static Block white_fence = new JABCMFence("white_fence");
 	public static Block orange_fence = new JABCMFence("orange_fence");
 	public static Block magenta_fence = new JABCMFence("magenta_fence");
 	public static Block lblue_fence = new JABCMFence("lblue_fence");
 	
 	// Pressure Plates
+	public static Block special_plate = new JABCMPlate("special_plate", Sensitivity.EVERYTHING);
 	public static Block white_plate = new JABCMPlate("white_plate", Sensitivity.MOBS);
 	public static Block orange_plate = new JABCMPlate("orange_plate", Sensitivity.MOBS);
 	public static Block magenta_plate = new JABCMPlate("magenta_plate", Sensitivity.MOBS);

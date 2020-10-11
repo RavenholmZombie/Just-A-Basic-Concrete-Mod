@@ -25,6 +25,7 @@ public class JABCMStairs extends BlockStairs implements IHasModel
 		setResistance(1.8F);
 		setSoundType(SoundType.STONE);
 		setHarvestLevel("pickaxe", 0);
+		setCreativeTab(Main.JABCMTAB);
 		
 		this.useNeighborBrightness = true;
 		

@@ -1,0 +1,6 @@
+{
+    "parent": "block/fence_post",
+    "textures": {
+        "texture": "jabcm:blocks/concrete_special"
+    }
+}
