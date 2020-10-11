@@ -54,3 +54,15 @@ tile.half_slab_red.name=Red Concrete Slab
 tile.double_slab_red.name=Red Concrete Slab
 tile.half_slab_black.name=Black Concrete Slab
 tile.double_slab_black.name=Black Concrete Slab
+
+//Fence
+tile.white_fence.name=White Concrete Fence
+tile.orange_fence.name=Orange Concrete Fence
+tile.magenta_fence.name=Magenta Concrete Fence
+tile.lblue_fence.name=Light Blue Concrete Fence
+
+//Pressure Plates
+tile.white_plate.name=White Concrete Pressure Plate
+tile.orange_plate.name=Orange Concrete Pressure Plate
+tile.magenta_plate.name=Magenta Concrete Pressure Plate
+tile.lblue_plate.name=Light Blue Concrete Pressure Plate

@@ -13,9 +13,9 @@ import rz.mod.util.IHasModel;
 
 public class JABCMPlate extends BlockPressurePlate implements IHasModel
 {
-	public JABCMPlate(String name)
+	public JABCMPlate(String name, Sensitivity level)
 	{
-		super(Material.ROCK, Sensitivity.MOBS);
+		super(Material.ROCK, level);
 		setUnlocalizedName(name);
 		setRegistryName(name);
 		setCreativeTab(CreativeTabs.REDSTONE);
