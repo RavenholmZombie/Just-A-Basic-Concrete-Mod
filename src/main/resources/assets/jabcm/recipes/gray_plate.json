@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:concrete",
+			"data": 7
+        }
+    },
+    "result": {
+        "item": "jabcm:gray_plate",
+		"data": 0,
+        "count": 1
+    }
+}

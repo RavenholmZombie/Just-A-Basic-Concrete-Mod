@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:concrete",
+			"data": 4
+        }
+    },
+    "result": {
+        "item": "jabcm:yellow_plate",
+		"data": 0,
+        "count": 1
+    }
+}

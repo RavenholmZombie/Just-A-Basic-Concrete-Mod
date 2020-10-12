@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "##"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:concrete",
+			"data": 1
+        }
+    },
+    "result": {
+        "item": "jabcm:orange_plate",
+		"data": 0,
+        "count": 1
+    }
+}
