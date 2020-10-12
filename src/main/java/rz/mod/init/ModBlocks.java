@@ -101,6 +101,18 @@ public class ModBlocks
 	public static Block orange_fence = new JABCMFence("orange_fence");
 	public static Block magenta_fence = new JABCMFence("magenta_fence");
 	public static Block lblue_fence = new JABCMFence("lblue_fence");
+	public static Block yellow_fence = new JABCMFence("yellow_fence");
+	public static Block lime_fence = new JABCMFence("lime_fence");
+	public static Block pink_fence = new JABCMFence("pink_fence");
+	public static Block gray_fence = new JABCMFence("gray_fence");
+	public static Block silver_fence = new JABCMFence("silver_fence");
+	public static Block cyan_fence = new JABCMFence("cyan_fence");
+	public static Block purple_fence = new JABCMFence("purple_fence");
+	public static Block blue_fence = new JABCMFence("blue_fence");
+	public static Block brown_fence = new JABCMFence("brown_fence");
+	public static Block green_fence = new JABCMFence("green_fence");
+	public static Block red_fence = new JABCMFence("red_fence");
+	public static Block black_fence = new JABCMFence("black_fence");
 	
 	// Pressure Plates
 	public static Block special_plate = new JABCMPlate("special_plate", Sensitivity.EVERYTHING);
@@ -108,4 +120,16 @@ public class ModBlocks
 	public static Block orange_plate = new JABCMPlate("orange_plate", Sensitivity.MOBS);
 	public static Block magenta_plate = new JABCMPlate("magenta_plate", Sensitivity.MOBS);
 	public static Block lblue_plate = new JABCMPlate("lblue_plate", Sensitivity.MOBS);
+	public static Block yellow_plate = new JABCMPlate("yellow_plate", Sensitivity.MOBS);
+	public static Block lime_plate = new JABCMPlate("lime_plate", Sensitivity.MOBS);
+	public static Block pink_plate = new JABCMPlate("pink_plate", Sensitivity.MOBS);
+	public static Block gray_plate = new JABCMPlate("gray_plate", Sensitivity.MOBS);
+	public static Block silver_plate = new JABCMPlate("silver_plate", Sensitivity.MOBS);
+	public static Block cyan_plate = new JABCMPlate("cyan_plate", Sensitivity.MOBS);
+	public static Block purple_plate = new JABCMPlate("purple_plate", Sensitivity.MOBS);
+	public static Block blue_plate = new JABCMPlate("blue_plate", Sensitivity.MOBS);
+	public static Block brown_plate = new JABCMPlate("brown_plate", Sensitivity.MOBS);
+	public static Block green_plate = new JABCMPlate("green_plate", Sensitivity.MOBS);
+	public static Block red_plate = new JABCMPlate("red_plate", Sensitivity.MOBS);
+	public static Block black_plate = new JABCMPlate("black_plate", Sensitivity.MOBS);
 }

@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "powered=false": { "model": "jabcm:cyan_plate_up" },
+        "powered=true": { "model": "jabcm:cyan_plate_down" }
+    }
+}
