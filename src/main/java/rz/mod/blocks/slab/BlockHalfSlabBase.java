@@ -18,6 +18,7 @@ public class BlockHalfSlabBase extends BlockSlabBase implements IHasModel
 		setHardness(1.8F);
 		setResistance(1.8F);
 		setSoundType(SoundType.STONE);
+		setCreativeTab(Main.JABCMTAB);
 		setHarvestLevel("pickaxe", 0);
 		
 		ModItems.ITEMS.add(new ItemSlab(this, this, doubleSlab).setRegistryName(name));
