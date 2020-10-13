@@ -29,12 +29,12 @@ public class Main
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event) 
 	{
-		
+		System.out.println("[JABCM] Version " + Reference.VERSION + " loading...");
 	}
 	@EventHandler
 	public static void init(FMLInitializationEvent event) 
 	{
-		
+		System.out.println("[JABCM] Version " + Reference.VERSION + " loaded successfully");
 	}
 	@EventHandler
 	public static void PostInit(FMLPostInitializationEvent event) 
