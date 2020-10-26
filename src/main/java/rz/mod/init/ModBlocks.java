@@ -96,7 +96,7 @@ public class ModBlocks
 	
 	// Fences
 	public static Block special_fence = new JABCMFence("special_fence");
-	public static Block white_fence = new JABCMFence("white_fence");
+	public static Block white_fence = new JABCMFence("white_fence_jabcm");
 	public static Block orange_fence = new JABCMFence("orange_fence");
 	public static Block magenta_fence = new JABCMFence("magenta_fence");
 	public static Block lblue_fence = new JABCMFence("lblue_fence");
