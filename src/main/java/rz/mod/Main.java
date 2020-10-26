@@ -13,7 +13,7 @@ import rz.mod.tabs.JABCMTab;
 import rz.mod.tabs.JABCMTabRedstone;
 import rz.mod.util.Reference;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION)
+@Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION, updateJSON = Reference.UPDATE_JSON)
 public class Main 
 {
 	@Instance
