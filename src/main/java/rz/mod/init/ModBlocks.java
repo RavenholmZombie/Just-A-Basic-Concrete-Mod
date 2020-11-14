@@ -8,9 +8,10 @@ import net.minecraft.block.BlockPressurePlate.Sensitivity;
 import net.minecraft.block.BlockSlab;
 import net.minecraft.block.material.Material;
 import net.minecraft.init.Blocks;
-import rz.mod.blocks.BlockBase;
+import rz.mod.blocks.JABCMBlock;
 import rz.mod.blocks.JABCMFence;
 import rz.mod.blocks.JABCMPlate;
+import rz.mod.blocks.JABCMSpecialBlock;
 import rz.mod.blocks.slab.BlockDoubleSlabBase;
 import rz.mod.blocks.slab.BlockHalfSlabBase;
 
@@ -91,7 +92,7 @@ public class ModBlocks
 	public static final BlockSlab half_slab_black = new BlockHalfSlabBase("half_slab_black", Material.ROCK, ModBlocks.half_slab_black, ModBlocks.double_slab_black);
 	
 	// Super duper special rainbow blocks ^_^
-	public static Block concrete_special = new BlockBase("concrete_special", Material.ROCK);
+	public static Block concrete_special = new JABCMSpecialBlock("concrete_special", Material.ROCK);
 	public static Block concrete_stairs_special = new JABCMStairs("concrete_stairs_special", Blocks.CONCRETE.getDefaultState());
 	
 	// Fences
@@ -131,4 +132,23 @@ public class ModBlocks
 	public static Block green_plate = new JABCMPlate("green_plate", Sensitivity.MOBS);
 	public static Block red_plate = new JABCMPlate("red_plate", Sensitivity.MOBS);
 	public static Block black_plate = new JABCMPlate("black_plate", Sensitivity.MOBS);
+	
+	// Concrete Brick Blocks!
+	public static Block jbricks_special = new JABCMSpecialBlock("jbrick_special", Material.IRON);
+	public static Block jbricks_white = new JABCMBlock("jbrick_white", Material.ROCK);
+	public static Block jbricks_orange = new JABCMBlock("jbrick_orange", Material.ROCK);
+	public static Block jbricks_magenta = new JABCMBlock("jbrick_magenta", Material.ROCK);
+	public static Block jbricks_lblue = new JABCMBlock("jbrick_lblue", Material.ROCK);
+	public static Block jbricks_yellow = new JABCMBlock("jbrick_yellow", Material.ROCK);
+	public static Block jbricks_lime = new JABCMBlock("jbrick_lime", Material.ROCK);
+	public static Block jbricks_pink = new JABCMBlock("jbrick_pink", Material.ROCK);
+	public static Block jbricks_gray = new JABCMBlock("jbrick_gray", Material.ROCK);
+	public static Block jbricks_silver = new JABCMBlock("jbrick_silver", Material.ROCK);
+	public static Block jbricks_cyan = new JABCMBlock("jbrick_cyan", Material.ROCK);
+	public static Block jbricks_purple = new JABCMBlock("jbrick_purple", Material.ROCK);
+	public static Block jbricks_blue = new JABCMBlock("jbrick_blue", Material.ROCK);
+	public static Block jbricks_brown = new JABCMBlock("jbrick_brown", Material.ROCK);
+	public static Block jbricks_green = new JABCMBlock("jbrick_green", Material.ROCK);
+	public static Block jbricks_red = new JABCMBlock("jbrick_red", Material.ROCK);
+	public static Block jbricks_black = new JABCMBlock("jbrick_black", Material.ROCK);
 }

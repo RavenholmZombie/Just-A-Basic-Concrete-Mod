@@ -93,6 +93,25 @@ tile.green_plate.name=Green Concrete Pressure Plate
 tile.red_plate.name=Red Concrete Pressure Plate
 tile.black_plate.name=Black Concrete Pressure Plate
 
+//Bricks
+tile.jbrick_special.name=Rainbow Concrete Bricks
+tile.jbrick_white.name=White Concrete Bricks
+tile.jbrick_orange.name=Orange Concrete Bricks
+tile.jbrick_magenta.name=Magenta Concrete Bricks
+tile.jbrick_lblue.name=Light Blue Concrete Bricks
+tile.jbrick_yellow.name=Yellow Concrete Bricks
+tile.jbrick_lime.name=Lime Concrete Bricks
+tile.jbrick_pink.name=Pink Concrete Bricks
+tile.jbrick_gray.name=Gray Concrete Bricks
+tile.jbrick_silver.name=Light Gray Concrete Bricks
+tile.jbrick_cyan.name=Cyan Concrete Bricks
+tile.jbrick_purple.name=Purple Concrete Bricks
+tile.jbrick_blue.name=Blue Concrete Bricks
+tile.jbrick_brown.name=Brown Concrete Bricks
+tile.jbrick_green.name=Green Concrete Bricks
+tile.jbrick_red.name=Red Concrete Bricks
+tile.jbrick_black.name=Black Concrete Bricks
+
 //Creative Tabs
 itemGroup.jabcm_tab=JABCM Building Blocks
 itemGroup.jabcm_tab_rs=JABCM Redstone

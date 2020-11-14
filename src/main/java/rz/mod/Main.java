@@ -1,5 +1,7 @@
 package rz.mod;
 
+import java.io.File;
+
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
@@ -16,6 +18,7 @@ import rz.mod.util.Reference;
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION, updateJSON = Reference.UPDATE_JSON)
 public class Main 
 {
+	
 	@Instance
 	public static Main instance;
 	
