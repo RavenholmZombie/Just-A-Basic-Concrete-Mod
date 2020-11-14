@@ -4,8 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 import net.minecraft.block.Block;
+import net.minecraft.block.BlockHalfStoneSlabNew;
 import net.minecraft.block.BlockPressurePlate.Sensitivity;
 import net.minecraft.block.BlockSlab;
+import net.minecraft.block.BlockStoneSlabNew;
 import net.minecraft.block.material.Material;
 import net.minecraft.init.Blocks;
 import rz.mod.blocks.JABCMBlock;
