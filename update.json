@@ -6,7 +6,12 @@
 	"0.0.2": "Adds Concrete Fences and Slabs",
 	"0.0.1": "First Public Release"
   },
+  "1.16.3": {
+	"1.16.3-0.0.4": "Port of 0.0.4 for Minecraft 1.16.3"
+  
+  },
   "promos": {
-    "1.12.2-recommended": "0.0.4"
+	"1.16.3-recommended": "1.16.3-0.0.4",
+    	"1.12.2-recommended": "0.0.4"
   }
 }
