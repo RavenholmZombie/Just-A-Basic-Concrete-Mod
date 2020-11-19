@@ -16,6 +16,8 @@ import rz.mod.blocks.JABCMPlate;
 import rz.mod.blocks.JABCMSpecialBlock;
 import rz.mod.blocks.slab.BlockDoubleSlabBase;
 import rz.mod.blocks.slab.BlockHalfSlabBase;
+import rz.mod.blocks.slab.JABCMSpecialDoubleSlab;
+import rz.mod.blocks.slab.JABCMSpecialHalfSlabBase;
 
 public class ModBlocks 
 {
@@ -41,8 +43,8 @@ public class ModBlocks
 	
 	// OMG WE FINALLY ADDED SLABS :O yay woohoo *crowd cheers as fireworks explode off in the distance and a marching band playing Hail to the Chief marches by*
 	// Rainbow Slab
-	public static final BlockSlab double_slab_special = new BlockDoubleSlabBase("double_slab_special", Material.ROCK, ModBlocks.half_slab_special);
-	public static final BlockSlab half_slab_special = new BlockHalfSlabBase("half_slab_special", Material.ROCK, ModBlocks.half_slab_special, ModBlocks.double_slab_special);
+	public static final BlockSlab double_slab_special = new JABCMSpecialDoubleSlab("double_slab_special", Material.ROCK, ModBlocks.half_slab_special);
+	public static final BlockSlab half_slab_special = new JABCMSpecialHalfSlabBase("half_slab_special", Material.ROCK, ModBlocks.half_slab_special, ModBlocks.double_slab_special);
 	
 	// White
 	public static final BlockSlab double_slab_white = new BlockDoubleSlabBase("double_slab_white", Material.ROCK, ModBlocks.half_slab_white);
