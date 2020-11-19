@@ -26,9 +26,10 @@ public class JABCMSpecialDoubleSlab extends BlockSlabBase
 	{
 		if(entity instanceof EntityPlayer)
 		{
-			((EntityPlayer) entity).addPotionEffect(new PotionEffect(MobEffects.SPEED, 1, 3, true, true));
+			((EntityPlayer) entity).addPotionEffect(new PotionEffect(MobEffects.SPEED, 10, 3, true, true));
 			((EntityPlayer) entity).addPotionEffect(new PotionEffect(MobEffects.INSTANT_HEALTH, 1, 10, true, true));
 			((EntityPlayer) entity).addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5000, 3, true, true));
+			((EntityPlayer) entity).addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 10, 1, true, true));
 		}
 	}
 	
