@@ -14,6 +14,7 @@ import rz.mod.blocks.JABCMBlock;
 import rz.mod.blocks.JABCMFence;
 import rz.mod.blocks.JABCMPlate;
 import rz.mod.blocks.JABCMSpecialBlock;
+import rz.mod.blocks.JABCMSpecialFence;
 import rz.mod.blocks.slab.BlockDoubleSlabBase;
 import rz.mod.blocks.slab.BlockHalfSlabBase;
 import rz.mod.blocks.slab.JABCMSpecialDoubleSlab;
@@ -44,7 +45,9 @@ public class ModBlocks
 	// OMG WE FINALLY ADDED SLABS :O yay woohoo *crowd cheers as fireworks explode off in the distance and a marching band playing Hail to the Chief marches by*
 	// Rainbow Slab
 	public static final BlockSlab double_slab_special = new JABCMSpecialDoubleSlab("double_slab_special", Material.ROCK, ModBlocks.half_slab_special);
+	public static final BlockSlab double_slab_jbrick_special = new JABCMSpecialDoubleSlab("double_slab_jbrick_special", Material.ROCK, ModBlocks.half_slab_jbrick_special);
 	public static final BlockSlab half_slab_special = new JABCMSpecialHalfSlabBase("half_slab_special", Material.ROCK, ModBlocks.half_slab_special, ModBlocks.double_slab_special);
+	public static final BlockSlab half_slab_jbrick_special = new JABCMSpecialHalfSlabBase("half_slab_jbrick_special", Material.ROCK, ModBlocks.half_slab_special, ModBlocks.double_slab_special);
 	
 	// White
 	public static final BlockSlab double_slab_white = new BlockDoubleSlabBase("double_slab_white", Material.ROCK, ModBlocks.half_slab_white);
@@ -100,7 +103,7 @@ public class ModBlocks
 	public static Block concrete_stairs_special = new JABCMStairs("concrete_stairs_special", Blocks.CONCRETE.getDefaultState());
 	
 	// Fences
-	public static Block special_fence = new JABCMFence("special_fence");
+	public static Block special_fence = new JABCMSpecialFence("special_fence");
 	public static Block white_fence = new JABCMFence("white_fence_jabcm");
 	public static Block orange_fence = new JABCMFence("orange_fence");
 	public static Block magenta_fence = new JABCMFence("magenta_fence");

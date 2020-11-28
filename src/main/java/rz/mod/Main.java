@@ -33,6 +33,7 @@ public class Main
 	public static void PreInit(FMLPreInitializationEvent event) 
 	{
 		System.out.println("[JABCM] Version " + Reference.VERSION + " loading...");
+		System.out.println("[JABCM] Laugh it up, Tali...");
 	}
 	@EventHandler
 	public static void init(FMLInitializationEvent event) 
