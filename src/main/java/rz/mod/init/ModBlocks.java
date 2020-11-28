@@ -47,7 +47,7 @@ public class ModBlocks
 	public static final BlockSlab double_slab_special = new JABCMSpecialDoubleSlab("double_slab_special", Material.ROCK, ModBlocks.half_slab_special);
 	public static final BlockSlab double_slab_jbrick_special = new JABCMSpecialDoubleSlab("double_slab_jbrick_special", Material.ROCK, ModBlocks.half_slab_jbrick_special);
 	public static final BlockSlab half_slab_special = new JABCMSpecialHalfSlabBase("half_slab_special", Material.ROCK, ModBlocks.half_slab_special, ModBlocks.double_slab_special);
-	public static final BlockSlab half_slab_jbrick_special = new JABCMSpecialHalfSlabBase("half_slab_jbrick_special", Material.ROCK, ModBlocks.half_slab_special, ModBlocks.double_slab_special);
+	public static final BlockSlab half_slab_jbrick_special = new JABCMSpecialHalfSlabBase("half_slab_jbrick_special", Material.ROCK, ModBlocks.half_slab_jbrick_special, ModBlocks.double_slab_jbrick_special);
 	
 	// White
 	public static final BlockSlab double_slab_white = new BlockDoubleSlabBase("double_slab_white", Material.ROCK, ModBlocks.half_slab_white);

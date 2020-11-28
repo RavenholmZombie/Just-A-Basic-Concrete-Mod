@@ -54,6 +54,8 @@ tile.half_slab_red.name=Red Concrete Slab
 tile.double_slab_red.name=Red Concrete Slab
 tile.half_slab_black.name=Black Concrete Slab
 tile.double_slab_black.name=Black Concrete Slab
+tile.half_slab_jbrick_special.name=Rainbow Concrete Bricks Slab
+tile.double_slab_jbrick_special.name=Rainbow Concrete Bricks Slab
 
 //Fence
 tile.special_fence.name=Rainbow Concrete Fence
