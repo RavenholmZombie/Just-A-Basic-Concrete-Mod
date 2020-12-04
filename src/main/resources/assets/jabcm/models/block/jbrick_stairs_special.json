@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "jabcm:blocks/jbrick_special",
+        "top": "jabcm:blocks/jbrick_special",
+        "side": "jabcm:blocks/jbrick_special"
+    }
+}

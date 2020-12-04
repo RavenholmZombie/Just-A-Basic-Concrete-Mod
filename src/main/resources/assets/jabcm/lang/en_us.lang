@@ -54,10 +54,47 @@ tile.half_slab_red.name=Red Concrete Slab
 tile.double_slab_red.name=Red Concrete Slab
 tile.half_slab_black.name=Black Concrete Slab
 tile.double_slab_black.name=Black Concrete Slab
-tile.half_slab_jbrick_special.name=Rainbow Concrete Bricks Slab
-tile.double_slab_jbrick_special.name=Rainbow Concrete Bricks Slab
 
-//Fence
+//Concrete Brick Slabs
+tile.half_slab_jbrick_special.name=Rainbow Concrete Brick Slab
+tile.double_slab_jbrick_special.name=Rainbow Concrete Brick Slab
+tile.half_slab_jbrick_white.name=White Concrete Brick Slab
+tile.double_slab_jbrick_white.name=White Concrete Brick Slab
+tile.half_slab_jbrick_orange.name=Orange Concrete Brick Slab
+tile.double_slab_jbrick_orange.name=Orange Concrete Brick Slab
+tile.half_slab_jbrick_magenta.name=Magenta Concrete Brick Slab
+tile.double_slab_jbrick_magenta.name=Magenta Concrete Brick Slab
+tile.half_slab_jbrick_lblue.name=Light Blue Concrete Brick Slab
+tile.double_slab_jbrick_lblue.name=Light Blue Concrete Brick Slab
+tile.half_slab_jbrick_yellow.name=Yellow Concrete Brick Slab
+tile.double_slab_jbrick_yellow.name=Yellow Concrete Brick Slab
+tile.half_slab_jbrick_lime.name=Lime Concrete Brick Slab
+tile.double_slab_jbrick_lime.name=Lime Concrete Brick Slab
+tile.half_slab_jbrick_pink.name=Pink Concrete Brick Slab
+tile.double_slab_jbrick_pink.name=Pink Concrete Brick Slab
+tile.half_slab_jbrick_gray.name=Gray Concrete Brick Slab
+tile.double_slab_jbrick_gray.name=Gray Concrete Brick Slab
+tile.half_slab_jbrick_silver.name=Light Gray Concrete Brick Slab
+tile.double_slab_jbrick_silver.name=Light Gray Concrete Brick Slab
+tile.half_slab_jbrick_cyan.name=Cyan Concrete Brick Slab
+tile.double_slab_jbrick_cyan.name=Cyan Concrete Brick Slab
+tile.half_slab_jbrick_purple.name=Purple Concrete Brick Slab
+tile.double_slab_jbrick_purple.name=Purple Concrete Brick Slab
+tile.half_slab_jbrick_blue.name=Blue Concrete Brick Slab
+tile.double_slab_jbrick_blue.name=Blue Concrete Brick Slab
+tile.half_slab_jbrick_brown.name=Brown Concrete Brick Slab
+tile.double_slab_jbrick_brown.name=Brown Concrete Brick Slab
+tile.half_slab_jbrick_green.name=Green Concrete Brick Slab
+tile.double_slab_jbrick_green.name=Green Concrete Brick Slab
+tile.half_slab_jbrick_red.name=Red Concrete Brick Slab
+tile.double_slab_jbrick_red.name=Red Concrete Brick Slab
+tile.half_slab_jbrick_black.name=Black Concrete Brick Slab
+tile.double_slab_jbrick_black.name=Black Concrete Brick Slab
+
+//Concrete Brick Stairs
+tile.jbrick_stairs_special.name=Rainbow Concrete Brick Stairs
+
+//Fences
 tile.special_fence.name=Rainbow Concrete Fence
 tile.white_fence_jabcm.name=White Concrete Fence
 tile.orange_fence.name=Orange Concrete Fence

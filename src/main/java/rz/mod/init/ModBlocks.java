@@ -8,6 +8,7 @@ import net.minecraft.block.BlockHalfStoneSlabNew;
 import net.minecraft.block.BlockPressurePlate.Sensitivity;
 import net.minecraft.block.BlockSlab;
 import net.minecraft.block.BlockStoneSlabNew;
+import net.minecraft.block.BlockWall;
 import net.minecraft.block.material.Material;
 import net.minecraft.init.Blocks;
 import rz.mod.blocks.JABCMBlock;
@@ -101,6 +102,7 @@ public class ModBlocks
 	// Super duper special rainbow blocks ^_^
 	public static Block concrete_special = new JABCMSpecialBlock("concrete_special", Material.ROCK);
 	public static Block concrete_stairs_special = new JABCMStairs("concrete_stairs_special", Blocks.CONCRETE.getDefaultState());
+	public static Block jbrick_stairs_special = new JABCMStairs("jbrick_stairs_special", Blocks.CONCRETE.getDefaultState());
 	
 	// Fences
 	public static Block special_fence = new JABCMSpecialFence("special_fence");
@@ -158,4 +160,57 @@ public class ModBlocks
 	public static Block jbricks_green = new JABCMBlock("jbrick_green", Material.ROCK);
 	public static Block jbricks_red = new JABCMBlock("jbrick_red", Material.ROCK);
 	public static Block jbricks_black = new JABCMBlock("jbrick_black", Material.ROCK);
+	
+	// Concrete Brick Slabs
+	//White
+	public static final BlockSlab double_slab_jbrick_white = new BlockDoubleSlabBase("double_slab_jbrick_white", Material.ROCK, ModBlocks.half_slab_jbrick_white);
+	public static final BlockSlab half_slab_jbrick_white = new BlockHalfSlabBase("half_slab_jbrick_white", Material.ROCK, ModBlocks.half_slab_jbrick_white, ModBlocks.double_slab_jbrick_white);
+	//Orange
+	public static final BlockSlab double_slab_jbrick_orange = new BlockDoubleSlabBase("double_slab_jbrick_orange", Material.ROCK, ModBlocks.half_slab_jbrick_orange);
+	public static final BlockSlab half_slab_jbrick_orange = new BlockHalfSlabBase("half_slab_jbrick_orange", Material.ROCK, ModBlocks.half_slab_jbrick_orange, ModBlocks.double_slab_jbrick_orange);
+	//Magenta
+	public static final BlockSlab double_slab_jbrick_magenta = new BlockDoubleSlabBase("double_slab_jbrick_magenta", Material.ROCK, ModBlocks.half_slab_jbrick_magenta);
+	public static final BlockSlab half_slab_jbrick_magenta = new BlockHalfSlabBase("half_slab_jbrick_magenta", Material.ROCK, ModBlocks.half_slab_jbrick_magenta, ModBlocks.double_slab_jbrick_magenta);
+	//Light Blue
+	public static final BlockSlab double_slab_jbrick_lblue = new BlockDoubleSlabBase("double_slab_jbrick_lblue", Material.ROCK, ModBlocks.half_slab_jbrick_lblue);
+	public static final BlockSlab half_slab_jbrick_lblue = new BlockHalfSlabBase("half_slab_jbrick_lblue", Material.ROCK, ModBlocks.half_slab_jbrick_lblue, ModBlocks.double_slab_jbrick_lblue);
+	//Yellow
+	public static final BlockSlab double_slab_jbrick_yellow = new BlockDoubleSlabBase("double_slab_jbrick_yellow", Material.ROCK, ModBlocks.half_slab_jbrick_yellow);
+	public static final BlockSlab half_slab_jbrick_yellow = new BlockHalfSlabBase("half_slab_jbrick_yellow", Material.ROCK, ModBlocks.half_slab_jbrick_yellow, ModBlocks.double_slab_jbrick_yellow);
+	//Lime
+	public static final BlockSlab double_slab_jbrick_lime = new BlockDoubleSlabBase("double_slab_jbrick_lime", Material.ROCK, ModBlocks.half_slab_jbrick_lime);
+	public static final BlockSlab half_slab_jbrick_lime = new BlockHalfSlabBase("half_slab_jbrick_lime", Material.ROCK, ModBlocks.half_slab_jbrick_lime, ModBlocks.double_slab_jbrick_lime);
+	//Pink
+	public static final BlockSlab double_slab_jbrick_pink = new BlockDoubleSlabBase("double_slab_jbrick_pink", Material.ROCK, ModBlocks.half_slab_jbrick_pink);
+	public static final BlockSlab half_slab_jbrick_pink = new BlockHalfSlabBase("half_slab_jbrick_pink", Material.ROCK, ModBlocks.half_slab_jbrick_pink, ModBlocks.double_slab_jbrick_pink);
+	//Gray
+	public static final BlockSlab double_slab_jbrick_gray = new BlockDoubleSlabBase("double_slab_jbrick_gray", Material.ROCK, ModBlocks.half_slab_jbrick_gray);
+	public static final BlockSlab half_slab_jbrick_gray = new BlockHalfSlabBase("half_slab_jbrick_gray", Material.ROCK, ModBlocks.half_slab_jbrick_gray, ModBlocks.double_slab_jbrick_gray);
+	//Silver
+	public static final BlockSlab double_slab_jbrick_silver = new BlockDoubleSlabBase("double_slab_jbrick_silver", Material.ROCK, ModBlocks.half_slab_jbrick_silver);
+	public static final BlockSlab half_slab_jbrick_silver = new BlockHalfSlabBase("half_slab_jbrick_silver", Material.ROCK, ModBlocks.half_slab_jbrick_silver, ModBlocks.double_slab_jbrick_silver);
+	//Cyan
+	public static final BlockSlab double_slab_jbrick_cyan = new BlockDoubleSlabBase("double_slab_jbrick_cyan", Material.ROCK, ModBlocks.half_slab_jbrick_cyan);
+	public static final BlockSlab half_slab_jbrick_cyan = new BlockHalfSlabBase("half_slab_jbrick_cyan", Material.ROCK, ModBlocks.half_slab_jbrick_cyan, ModBlocks.double_slab_jbrick_cyan);
+	//Purple
+	public static final BlockSlab double_slab_jbrick_purple = new BlockDoubleSlabBase("double_slab_jbrick_purple", Material.ROCK, ModBlocks.half_slab_jbrick_purple);
+	public static final BlockSlab half_slab_jbrick_purple = new BlockHalfSlabBase("half_slab_jbrick_purple", Material.ROCK, ModBlocks.half_slab_jbrick_purple, ModBlocks.double_slab_jbrick_purple);
+	//Blue
+	public static final BlockSlab double_slab_jbrick_blue = new BlockDoubleSlabBase("double_slab_jbrick_blue", Material.ROCK, ModBlocks.half_slab_jbrick_blue);
+	public static final BlockSlab half_slab_jbrick_blue = new BlockHalfSlabBase("half_slab_jbrick_blue", Material.ROCK, ModBlocks.half_slab_jbrick_blue, ModBlocks.double_slab_jbrick_blue);
+	//Brown
+	public static final BlockSlab double_slab_jbrick_brown = new BlockDoubleSlabBase("double_slab_jbrick_brown", Material.ROCK, ModBlocks.half_slab_jbrick_brown);
+	public static final BlockSlab half_slab_jbrick_brown = new BlockHalfSlabBase("half_slab_jbrick_brown", Material.ROCK, ModBlocks.half_slab_jbrick_brown, ModBlocks.double_slab_jbrick_brown);
+	//Green
+	public static final BlockSlab double_slab_jbrick_green = new BlockDoubleSlabBase("double_slab_jbrick_green", Material.ROCK, ModBlocks.half_slab_jbrick_green);
+	public static final BlockSlab half_slab_jbrick_green = new BlockHalfSlabBase("half_slab_jbrick_green", Material.ROCK, ModBlocks.half_slab_jbrick_green, ModBlocks.double_slab_jbrick_green);
+	//Red
+	public static final BlockSlab double_slab_jbrick_red = new BlockDoubleSlabBase("double_slab_jbrick_red", Material.ROCK, ModBlocks.half_slab_jbrick_red);
+	public static final BlockSlab half_slab_jbrick_red = new BlockHalfSlabBase("half_slab_jbrick_red", Material.ROCK, ModBlocks.half_slab_jbrick_red, ModBlocks.double_slab_jbrick_red);
+	//Black
+	public static final BlockSlab double_slab_jbrick_black = new BlockDoubleSlabBase("double_slab_jbrick_black", Material.ROCK, ModBlocks.half_slab_jbrick_black);
+	public static final BlockSlab half_slab_jbrick_black = new BlockHalfSlabBase("half_slab_jbrick_black", Material.ROCK, ModBlocks.half_slab_jbrick_black, ModBlocks.double_slab_jbrick_black);
+	
+	// Concrete Brick Stairs
+	
 }

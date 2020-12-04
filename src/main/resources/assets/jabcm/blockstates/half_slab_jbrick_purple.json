@@ -1,0 +1,7 @@
+{
+    "variants":
+    {
+        "half=bottom,variant=default": { "model": "jabcm:bottom_slab_jbrick_purple" },
+        "half=top,variant=default": { "model": "jabcm:top_slab_jbrick_purple" }
+    }
+}

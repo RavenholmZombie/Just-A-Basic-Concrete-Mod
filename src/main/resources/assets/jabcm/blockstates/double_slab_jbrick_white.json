@@ -1,0 +1,6 @@
+{
+    "variants":
+    {
+        "variant=default": { "model": "jabcm:double_slab_jbrick_white" }
+    }
+}

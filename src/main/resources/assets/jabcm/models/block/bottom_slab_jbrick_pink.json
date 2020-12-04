@@ -1,0 +1,9 @@
+{
+    "parent": "block/half_slab",
+    "textures":
+    {
+        "bottom": "jabcm:blocks/jbrick_pink",
+        "top": "jabcm:blocks/jbrick_pink",
+        "side": "jabcm:blocks/jbrick_pink"
+    }
+}
