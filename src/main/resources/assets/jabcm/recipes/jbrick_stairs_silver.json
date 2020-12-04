@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "jabcm:jbrick_silver",
+      "data": 0
+    }
+  },
+  "result": {
+    "item": "jabcm:jbrick_stairs_silver",
+    "count": 4
+  }
+}

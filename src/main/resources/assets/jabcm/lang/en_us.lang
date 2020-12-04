@@ -93,6 +93,22 @@ tile.double_slab_jbrick_black.name=Black Concrete Brick Slab
 
 //Concrete Brick Stairs
 tile.jbrick_stairs_special.name=Rainbow Concrete Brick Stairs
+tile.jbrick_stairs_white.name=White Concrete Brick Stairs
+tile.jbrick_stairs_orange.name=Orange Concrete Brick Stairs
+tile.jbrick_stairs_magenta.name=Magenta Concrete Brick Stairs
+tile.jbrick_stairs_blue.name=Blue Concrete Brick Stairs
+tile.jbrick_stairs_lblue.name=Light Blue Concrete Brick Stairs
+tile.jbrick_stairs_yellow.name=Yellow Concrete Brick Stairs
+tile.jbrick_stairs_lime.name=Lime Concrete Brick Stairs
+tile.jbrick_stairs_pink.name=Pink Concrete Brick Stairs
+tile.jbrick_stairs_gray.name=Gray Concrete Brick Stairs
+tile.jbrick_stairs_silver.name=Light Gray Concrete Brick Stairs
+tile.jbrick_stairs_cyan.name=Cyan Concrete Brick Stairs
+tile.jbrick_stairs_purple.name=Purple Concrete Brick Stairs
+tile.jbrick_stairs_brown.name=Brown Concrete Brick Stairs
+tile.jbrick_stairs_green.name=Green Concrete Brick Stairs
+tile.jbrick_stairs_red.name=Red Concrete Brick Stairs
+tile.jbrick_stairs_black.name=Black Concrete Brick Stairs
 
 //Fences
 tile.special_fence.name=Rainbow Concrete Fence
