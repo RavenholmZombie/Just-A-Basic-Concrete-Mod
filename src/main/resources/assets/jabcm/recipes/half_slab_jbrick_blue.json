@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"###"
+	],
+	"key": {
+		"#": {
+			"item": "jabcm:jbrick_blue",
+			"data": 0
+		}
+	},
+	"result": {
+		"item": "jabcm:half_slab_jbrick_blue",
+		"data": 0,
+		"count": 6
+	}
+}
