@@ -206,5 +206,6 @@ tile.jbrick_wall_black.name=Black Concrete Brick Wall
 tile.jbrick_wall_special.name=Rainbow Concrete Brick Wall
 
 //Creative Tabs
-itemGroup.jabcm_tab=JABCM Building Blocks
-itemGroup.jabcm_tab_rs=JABCM Redstone
+itemGroup.jabcm_tab=[JABCM] Building Blocks
+itemGroup.jabcm_tab_rs=[JABCM] Redstone
+itemGroup.jabcm_barrier_tab=[JABCM] Fences and Walls

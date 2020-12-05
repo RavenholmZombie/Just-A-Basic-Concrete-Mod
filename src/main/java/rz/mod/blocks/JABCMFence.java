@@ -19,7 +19,7 @@ public class JABCMFence extends BlockFence implements IHasModel
 		super(Material.ROCK, MapColor.STONE);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(Main.JABCMTAB);
+		setCreativeTab(Main.JABCMBARRIERS);
 		setSoundType(SoundType.STONE);
 		setHardness(8.0F);
 		setResistance(8.0F);

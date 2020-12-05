@@ -11,6 +11,7 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import rz.mod.proxy.CommonProxy;
+import rz.mod.tabs.JABCMBarriersTab;
 import rz.mod.tabs.JABCMTab;
 import rz.mod.tabs.JABCMTabRedstone;
 import rz.mod.util.Reference;
@@ -28,6 +29,7 @@ public class Main
 	// Creative Tabs
 	public static final CreativeTabs JABCMTAB = new JABCMTab("jabcm_tab");
 	public static final CreativeTabs JABCMTABREDSTONE = new JABCMTabRedstone("jabcm_tab_rs");
+	public static final CreativeTabs JABCMBARRIERS = new JABCMBarriersTab("jabcm_barrier_tab");
 	
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event) 
