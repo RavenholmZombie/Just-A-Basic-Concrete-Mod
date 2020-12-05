@@ -110,25 +110,6 @@ tile.jbrick_stairs_green.name=Green Concrete Brick Stairs
 tile.jbrick_stairs_red.name=Red Concrete Brick Stairs
 tile.jbrick_stairs_black.name=Black Concrete Brick Stairs
 
-//Walls
-tile.concrete_wall_white.name=White Concrete Wall
-tile.concrete_wall_orange.name=Orange Concrete Wall
-tile.concrete_wall_magenta.name=Magenta Concrete Wall
-tile.concrete_wall_lblue.name=Light Blue Concrete Wall
-tile.concrete_wall_yellow.name=Yellow Concrete Wall
-tile.concrete_wall_lime.name=Lime Concrete Wall
-tile.concrete_wall_pink.name=Pink Concrete Wall
-tile.concrete_wall_gray.name=Gray Concrete Wall
-tile.concrete_wall_silver.name=Light Gray Concrete Wall
-tile.concrete_wall_cyan.name=Cyan Concrete Wall
-tile.concrete_wall_purple.name=Purple Concrete Wall
-tile.concrete_wall_blue.name=Blue Concrete Wall
-tile.concrete_wall_brown.name=Brown Concrete Wall
-tile.concrete_wall_green.name=Green Concrete Wall
-tile.concrete_wall_red.name=Red Concrete Wall
-tile.concrete_wall_black.name=Black Concrete Wall
-tile.concrete_wall_special.name=Rainbow Concrete Wall
-
 //Fences
 tile.special_fence.name=Rainbow Concrete Fence
 tile.white_fence_jabcm.name=White Concrete Fence
@@ -185,6 +166,44 @@ tile.jbrick_brown.name=Brown Concrete Bricks
 tile.jbrick_green.name=Green Concrete Bricks
 tile.jbrick_red.name=Red Concrete Bricks
 tile.jbrick_black.name=Black Concrete Bricks
+
+//Walls
+tile.concrete_wall_white.name=White Concrete Wall
+tile.concrete_wall_orange.name=Orange Concrete Wall
+tile.concrete_wall_magenta.name=Magenta Concrete Wall
+tile.concrete_wall_lblue.name=Light Blue Concrete Wall
+tile.concrete_wall_yellow.name=Yellow Concrete Wall
+tile.concrete_wall_lime.name=Lime Concrete Wall
+tile.concrete_wall_pink.name=Pink Concrete Wall
+tile.concrete_wall_gray.name=Gray Concrete Wall
+tile.concrete_wall_silver.name=Light Gray Concrete Wall
+tile.concrete_wall_cyan.name=Cyan Concrete Wall
+tile.concrete_wall_purple.name=Purple Concrete Wall
+tile.concrete_wall_blue.name=Blue Concrete Wall
+tile.concrete_wall_brown.name=Brown Concrete Wall
+tile.concrete_wall_green.name=Green Concrete Wall
+tile.concrete_wall_red.name=Red Concrete Wall
+tile.concrete_wall_black.name=Black Concrete Wall
+tile.concrete_wall_special.name=Rainbow Concrete Wall
+
+//Concrete Brick walls
+tile.jbrick_wall_white.name=White Concrete Brick Wall
+tile.jbrick_wall_orange.name=Orange Concrete Brick Wall
+tile.jbrick_wall_magenta.name=Magenta Concrete Brick Wall
+tile.jbrick_wall_lblue.name=Light Blue Concrete Brick Wall
+tile.jbrick_wall_yellow.name=Yellow Concrete Brick Wall
+tile.jbrick_wall_lime.name=Lime Concrete Brick Wall
+tile.jbrick_wall_pink.name=Pink Concrete Brick Wall
+tile.jbrick_wall_gray.name=Gray Concrete Brick Wall
+tile.jbrick_wall_silver.name=Light Gray Concrete Brick Wall
+tile.jbrick_wall_cyan.name=Cyan Concrete Brick Wall
+tile.jbrick_wall_purple.name=Purple Concrete Brick Wall
+tile.jbrick_wall_blue.name=Blue Concrete Brick Wall
+tile.jbrick_wall_brown.name=Brown Concrete Brick Wall
+tile.jbrick_wall_green.name=Green Concrete Brick Wall
+tile.jbrick_wall_red.name=Red Concrete Brick Wall
+tile.jbrick_wall_black.name=Black Concrete Brick Wall
+tile.jbrick_wall_special.name=Rainbow Concrete Brick Wall
 
 //Creative Tabs
 itemGroup.jabcm_tab=JABCM Building Blocks

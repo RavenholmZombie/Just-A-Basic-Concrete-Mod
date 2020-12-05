@@ -105,6 +105,7 @@ public class ModBlocks
 	public static Block concrete_stairs_special = new JABCMStairs("concrete_stairs_special", Blocks.CONCRETE.getDefaultState());
 	public static Block jbrick_stairs_special = new JABCMStairs("jbrick_stairs_special", Blocks.CONCRETE.getDefaultState());
 	public static BlockWall concrete_wall_special = new JABCMWall("concrete_wall_special");
+	public static BlockWall jbrick_wall_special = new JABCMWall("jbrick_wall_special");
 	
 	// Fences
 	public static Block special_fence = new JABCMSpecialFence("special_fence");
@@ -250,4 +251,20 @@ public class ModBlocks
 	public static BlockWall concrete_wall_black = new JABCMWall("concrete_wall_black");
 	
 	//Concrete Brick Walls
+	public static BlockWall jbrick_wall_white = new JABCMWall("jbrick_wall_white");
+	public static BlockWall jbrick_wall_orange = new JABCMWall("jbrick_wall_orange");
+	public static BlockWall jbrick_wall_magenta = new JABCMWall("jbrick_wall_magenta");
+	public static BlockWall jbrick_wall_lblue = new JABCMWall("jbrick_wall_lblue");
+	public static BlockWall jbrick_wall_yellow = new JABCMWall("jbrick_wall_yellow");
+	public static BlockWall jbrick_wall_lime = new JABCMWall("jbrick_wall_lime");
+	public static BlockWall jbrick_wall_pink = new JABCMWall("jbrick_wall_pink");
+	public static BlockWall jbrick_wall_gray = new JABCMWall("jbrick_wall_gray");
+	public static BlockWall jbrick_wall_silver = new JABCMWall("jbrick_wall_silver");
+	public static BlockWall jbrick_wall_cyan = new JABCMWall("jbrick_wall_cyan");
+	public static BlockWall jbrick_wall_purple = new JABCMWall("jbrick_wall_purple");
+	public static BlockWall jbrick_wall_blue = new JABCMWall("jbrick_wall_blue");
+	public static BlockWall jbrick_wall_brown = new JABCMWall("jbrick_wall_brown");
+	public static BlockWall jbrick_wall_green = new JABCMWall("jbrick_wall_green");
+	public static BlockWall jbrick_wall_red = new JABCMWall("jbrick_wall_red");
+	public static BlockWall jbrick_wall_black = new JABCMWall("jbrick_wall_black");
 }

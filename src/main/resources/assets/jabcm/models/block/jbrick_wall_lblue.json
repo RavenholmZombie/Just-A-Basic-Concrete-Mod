@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_side",
+  "textures": {
+    "wall": "jabcm:blocks/jbrick_lblue",
+    "particle": "jabcm:blocks/jbrick_lblue"
+  }
+}

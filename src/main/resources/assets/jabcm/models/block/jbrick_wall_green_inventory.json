@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_inventory",
+  "textures": {
+    "wall": "jabcm:blocks/jbrick_green",
+    "particle": "jabcm:blocks/jbrick_green"
+  }
+}
