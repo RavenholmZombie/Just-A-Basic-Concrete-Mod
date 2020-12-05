@@ -14,6 +14,7 @@ import rz.mod.proxy.CommonProxy;
 import rz.mod.tabs.JABCMBarriersTab;
 import rz.mod.tabs.JABCMTab;
 import rz.mod.tabs.JABCMTabRedstone;
+import rz.mod.util.Quotes;
 import rz.mod.util.Reference;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.NAME, version = Reference.VERSION, updateJSON = Reference.UPDATE_JSON)
@@ -35,12 +36,12 @@ public class Main
 	public static void PreInit(FMLPreInitializationEvent event) 
 	{
 		System.out.println("[JABCM] Version " + Reference.VERSION + " loading...");
-		System.out.println("[JABCM] Laugh it up, Tali...");
 	}
 	@EventHandler
 	public static void init(FMLInitializationEvent event) 
 	{
 		System.out.println("[JABCM] Version " + Reference.VERSION + " loaded successfully");
+		Quotes.QuoteSelect();
 	}
 	@EventHandler
 	public static void PostInit(FMLPostInitializationEvent event) 
