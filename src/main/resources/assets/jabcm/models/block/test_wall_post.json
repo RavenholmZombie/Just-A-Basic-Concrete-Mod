@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_post",
+  "textures": {
+    "wall": "jabcm:blocks/test_wall",
+    "particle": "jabcm:blocks/test_wall"
+  }
+}

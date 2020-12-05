@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_post",
+  "textures": {
+    "wall": "jabcm:blocks/concrete_special",
+    "particle": "jabcm:blocks/concrete_special"
+  }
+}

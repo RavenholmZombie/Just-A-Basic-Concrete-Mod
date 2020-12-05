@@ -20,6 +20,7 @@ import rz.mod.blocks.slab.BlockDoubleSlabBase;
 import rz.mod.blocks.slab.BlockHalfSlabBase;
 import rz.mod.blocks.slab.JABCMSpecialDoubleSlab;
 import rz.mod.blocks.slab.JABCMSpecialHalfSlabBase;
+import rz.mod.blocks.wall.JABCMWall;
 
 public class ModBlocks 
 {
@@ -103,6 +104,7 @@ public class ModBlocks
 	public static Block concrete_special = new JABCMSpecialBlock("concrete_special", Material.ROCK);
 	public static Block concrete_stairs_special = new JABCMStairs("concrete_stairs_special", Blocks.CONCRETE.getDefaultState());
 	public static Block jbrick_stairs_special = new JABCMStairs("jbrick_stairs_special", Blocks.CONCRETE.getDefaultState());
+	public static BlockWall concrete_wall_special = new JABCMWall("concrete_wall_special");
 	
 	// Fences
 	public static Block special_fence = new JABCMSpecialFence("special_fence");
@@ -228,4 +230,24 @@ public class ModBlocks
 	public static Block jbrick_stairs_green = new JABCMStairs("jbrick_stairs_green", Blocks.CONCRETE.getDefaultState());
 	public static Block jbrick_stairs_red = new JABCMStairs("jbrick_stairs_red", Blocks.CONCRETE.getDefaultState());
 	public static Block jbrick_stairs_black = new JABCMStairs("jbrick_stairs_black", Blocks.CONCRETE.getDefaultState());
+
+	// Concrete Walls
+	public static BlockWall concrete_wall_white = new JABCMWall("concrete_wall_white");
+	public static BlockWall concrete_wall_orange = new JABCMWall("concrete_wall_orange");
+	public static BlockWall concrete_wall_magenta = new JABCMWall("concrete_wall_magenta");
+	public static BlockWall concrete_wall_lblue = new JABCMWall("concrete_wall_lblue");
+	public static BlockWall concrete_wall_yellow = new JABCMWall("concrete_wall_yellow");
+	public static BlockWall concrete_wall_lime = new JABCMWall("concrete_wall_lime");
+	public static BlockWall concrete_wall_pink = new JABCMWall("concrete_wall_pink");
+	public static BlockWall concrete_wall_gray = new JABCMWall("concrete_wall_gray");
+	public static BlockWall concrete_wall_silver = new JABCMWall("concrete_wall_silver");
+	public static BlockWall concrete_wall_cyan = new JABCMWall("concrete_wall_cyan");
+	public static BlockWall concrete_wall_purple = new JABCMWall("concrete_wall_purple");
+	public static BlockWall concrete_wall_blue = new JABCMWall("concrete_wall_blue");
+	public static BlockWall concrete_wall_brown = new JABCMWall("concrete_wall_brown");
+	public static BlockWall concrete_wall_green = new JABCMWall("concrete_wall_green");
+	public static BlockWall concrete_wall_red = new JABCMWall("concrete_wall_red");
+	public static BlockWall concrete_wall_black = new JABCMWall("concrete_wall_black");
+	
+	//Concrete Brick Walls
 }

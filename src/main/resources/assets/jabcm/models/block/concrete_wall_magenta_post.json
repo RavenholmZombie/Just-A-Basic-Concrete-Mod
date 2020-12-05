@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_post",
+  "textures": {
+    "wall": "blocks/concrete_magenta",
+    "particle": "blocks/concrete_magenta"
+  }
+}

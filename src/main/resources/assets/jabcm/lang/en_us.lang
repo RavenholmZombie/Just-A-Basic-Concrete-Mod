@@ -110,6 +110,25 @@ tile.jbrick_stairs_green.name=Green Concrete Brick Stairs
 tile.jbrick_stairs_red.name=Red Concrete Brick Stairs
 tile.jbrick_stairs_black.name=Black Concrete Brick Stairs
 
+//Walls
+tile.concrete_wall_white.name=White Concrete Wall
+tile.concrete_wall_orange.name=Orange Concrete Wall
+tile.concrete_wall_magenta.name=Magenta Concrete Wall
+tile.concrete_wall_lblue.name=Light Blue Concrete Wall
+tile.concrete_wall_yellow.name=Yellow Concrete Wall
+tile.concrete_wall_lime.name=Lime Concrete Wall
+tile.concrete_wall_pink.name=Pink Concrete Wall
+tile.concrete_wall_gray.name=Gray Concrete Wall
+tile.concrete_wall_silver.name=Light Gray Concrete Wall
+tile.concrete_wall_cyan.name=Cyan Concrete Wall
+tile.concrete_wall_purple.name=Purple Concrete Wall
+tile.concrete_wall_blue.name=Blue Concrete Wall
+tile.concrete_wall_brown.name=Brown Concrete Wall
+tile.concrete_wall_green.name=Green Concrete Wall
+tile.concrete_wall_red.name=Red Concrete Wall
+tile.concrete_wall_black.name=Black Concrete Wall
+tile.concrete_wall_special.name=Rainbow Concrete Wall
+
 //Fences
 tile.special_fence.name=Rainbow Concrete Fence
 tile.white_fence_jabcm.name=White Concrete Fence

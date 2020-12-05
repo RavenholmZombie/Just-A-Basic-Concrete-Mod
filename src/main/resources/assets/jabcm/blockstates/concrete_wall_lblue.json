@@ -5,7 +5,7 @@
         "up": "true"
       },
       "apply": {
-        "model": "jabcm:test_wall_post"
+        "model": "jabcm:concrete_wall_lblue_post"
       }
     },
     {
@@ -13,7 +13,7 @@
         "north": "true"
       },
       "apply": {
-        "model": "jabcm:test_wall",
+        "model": "jabcm:concrete_wall_lblue",
         "uvlock": true
       }
     },
@@ -22,7 +22,7 @@
         "south": "true"
       },
       "apply": {
-        "model": "jabcm:test_wall",
+        "model": "jabcm:concrete_wall_lblue",
         "y": 180,
         "uvlock": true
       }
@@ -32,7 +32,7 @@
         "west": "true"
       },
       "apply": {
-        "model": "jabcm:test_wall",
+        "model": "jabcm:concrete_wall_lblue",
         "y": 270,
         "uvlock": true
       }
@@ -42,7 +42,7 @@
         "east": "true"
       },
       "apply": {
-        "model": "jabcm:test_wall",
+        "model": "jabcm:concrete_wall_lblue",
         "y": 90,
         "uvlock": true
       }

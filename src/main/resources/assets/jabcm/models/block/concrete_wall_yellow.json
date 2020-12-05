@@ -1,0 +1,7 @@
+{
+  "parent": "block/wall_side",
+  "textures": {
+    "wall": "blocks/concrete_yellow",
+    "particle": "blocks/concrete_yellow"
+  }
+}
