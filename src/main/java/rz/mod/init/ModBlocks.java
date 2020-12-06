@@ -16,6 +16,7 @@ import rz.mod.blocks.JABCMFence;
 import rz.mod.blocks.JABCMPlate;
 import rz.mod.blocks.JABCMSpecialBlock;
 import rz.mod.blocks.JABCMSpecialFence;
+import rz.mod.blocks.JABCMStairs;
 import rz.mod.blocks.slab.BlockDoubleSlabBase;
 import rz.mod.blocks.slab.BlockHalfSlabBase;
 import rz.mod.blocks.slab.JABCMSpecialDoubleSlab;

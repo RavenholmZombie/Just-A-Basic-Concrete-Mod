@@ -1,4 +1,4 @@
-package rz.mod.init;
+package rz.mod.blocks;
 
 import java.util.List;
 
@@ -12,6 +12,8 @@ import net.minecraft.item.ItemBlock;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 import rz.mod.Main;
+import rz.mod.init.ModBlocks;
+import rz.mod.init.ModItems;
 import rz.mod.util.IHasModel;
 
 public class JABCMStairs extends BlockStairs implements IHasModel
