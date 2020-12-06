@@ -7,9 +7,12 @@ import rz.mod.init.ModBlocks;
 
 public class JABCMTab extends CreativeTabs
 {
+	private String title = "";
+	private boolean hoveringButton = false;
+	
 	public JABCMTab(String label)
 	{
-		super("jabcm_tab");
+		super(label);
 	}
 	
 	@Override
@@ -17,4 +20,20 @@ public class JABCMTab extends CreativeTabs
 	{
 		return new ItemStack(ModBlocks.concrete_stairs_special);
 	}
+	
+    @Override
+    public String getTranslatedTabLabel()
+    {
+        return hoveringButton ? title : "itemGroup." + this.getTabLabel();
+    }
+    
+    public void setTitle(String title)
+    {
+        this.title = title;
+    }
+
+    public void setHoveringButton(boolean hoveringButton)
+    {
+        this.hoveringButton = hoveringButton;
+    }
 }

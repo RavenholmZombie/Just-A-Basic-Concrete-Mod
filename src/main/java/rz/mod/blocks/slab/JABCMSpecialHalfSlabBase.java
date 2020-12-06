@@ -40,14 +40,13 @@ public class JABCMSpecialHalfSlabBase extends BlockSlabBase implements IHasModel
 		if(entity instanceof EntityPlayer)
 		{
 			((EntityPlayer) entity).addPotionEffect(new PotionEffect(MobEffects.SPEED, 10, 3, true, true));
-			((EntityPlayer) entity).addPotionEffect(new PotionEffect(MobEffects.INSTANT_HEALTH, 1, 10, true, true));
 			((EntityPlayer) entity).addPotionEffect(new PotionEffect(MobEffects.STRENGTH, 5000, 3, true, true));
 			((EntityPlayer) entity).addPotionEffect(new PotionEffect(MobEffects.JUMP_BOOST, 10, 1, true, true));
-		
+			((EntityPlayer) entity).setHealth(100F);
+			
 		}else if(entity instanceof EntityMob)
 		{
 			((EntityMob) entity).addPotionEffect(new PotionEffect(MobEffects.INSTANT_DAMAGE, 10, 10, true, true));
-
 		}
 	}
 	

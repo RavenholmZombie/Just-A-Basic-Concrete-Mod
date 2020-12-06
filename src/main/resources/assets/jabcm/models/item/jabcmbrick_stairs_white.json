@@ -1,5 +1,5 @@
 {
-    "parent": "jabcm:block/jbrick_stairs_white",
+    "parent": "jabcm:block/jabcmbrick_stairs_white",
     "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],

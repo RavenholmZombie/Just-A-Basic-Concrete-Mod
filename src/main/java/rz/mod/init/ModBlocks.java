@@ -216,7 +216,7 @@ public class ModBlocks
 	public static final BlockSlab half_slab_jbrick_black = new BlockHalfSlabBase("half_slab_jbrick_black", Material.ROCK, ModBlocks.half_slab_jbrick_black, ModBlocks.double_slab_jbrick_black);
 	
 	// Concrete Brick Stairs
-	public static Block jbrick_stairs_white = new JABCMStairs("jbrick_stairs_white", Blocks.CONCRETE.getDefaultState());
+	public static Block jbrick_stairs_white = new JABCMStairs("jabcmbrick_stairs_white", Blocks.CONCRETE.getDefaultState());
 	public static Block jbrick_stairs_orange = new JABCMStairs("jbrick_stairs_orange", Blocks.CONCRETE.getDefaultState());
 	public static Block jbrick_stairs_magenta = new JABCMStairs("jbrick_stairs_magenta", Blocks.CONCRETE.getDefaultState());
 	public static Block jbrick_stairs_blue = new JABCMStairs("jbrick_stairs_blue", Blocks.CONCRETE.getDefaultState());

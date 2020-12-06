@@ -18,9 +18,9 @@ public class JABCMBlock extends Block implements IHasModel
 		super(material);
 		setUnlocalizedName(name);
 		setRegistryName(name);
-		setCreativeTab(Main.JABCMTAB);
 		setHardness(8.0F);
 		setResistance(8.0F);
+		setCreativeTab(Main.JABCMTAB);
 		setHarvestLevel("pickaxe", 0);
 		
 		

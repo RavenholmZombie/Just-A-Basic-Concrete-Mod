@@ -30,8 +30,8 @@ public class JABCMWall extends BlockWall implements IHasModel
 		setHardness(1F);
 		setResistance(10F);
 		setLightLevel(0F);
-		setLightOpacity(0);
 		setCreativeTab(Main.JABCMBARRIERS);
+		setLightOpacity(0);
 		
 		ModBlocks.BLOCKS.add(this);
 		ModItems.ITEMS.add(new ItemBlock(this).setRegistryName(this.getRegistryName()));

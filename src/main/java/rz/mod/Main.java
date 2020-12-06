@@ -29,8 +29,8 @@ public class Main
 	
 	// Creative Tabs
 	public static final CreativeTabs JABCMTAB = new JABCMTab("jabcm_tab");
-	public static final CreativeTabs JABCMTABREDSTONE = new JABCMTabRedstone("jabcm_tab_rs");
 	public static final CreativeTabs JABCMBARRIERS = new JABCMBarriersTab("jabcm_barrier_tab");
+	public static final CreativeTabs JABCMTABREDSTONE = new JABCMTabRedstone("jabcm_tab_rs");
 	
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event) 
@@ -42,6 +42,7 @@ public class Main
 	{
 		System.out.println("[JABCM] Version " + Reference.VERSION + " loaded successfully");
 		Quotes.QuoteSelect();
+
 	}
 	@EventHandler
 	public static void PostInit(FMLPostInitializationEvent event) 

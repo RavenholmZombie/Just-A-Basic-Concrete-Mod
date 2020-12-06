@@ -93,7 +93,7 @@ tile.double_slab_jbrick_black.name=Black Concrete Brick Slab
 
 //Concrete Brick Stairs
 tile.jbrick_stairs_special.name=Rainbow Concrete Brick Stairs
-tile.jbrick_stairs_white.name=White Concrete Brick Stairs
+tile.jabcmbrick_stairs_white.name=White Concrete Brick Stairs
 tile.jbrick_stairs_orange.name=Orange Concrete Brick Stairs
 tile.jbrick_stairs_magenta.name=Magenta Concrete Brick Stairs
 tile.jbrick_stairs_blue.name=Blue Concrete Brick Stairs
