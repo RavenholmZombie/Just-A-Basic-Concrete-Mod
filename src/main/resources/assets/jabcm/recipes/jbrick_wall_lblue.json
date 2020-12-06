@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "jabcm:jbrick_lblue",
+			"data": 0
+        }
+    },
+    "result": {
+        "item": "jabcm:jbrick_wall_lblue",
+        "count": 6
+    }
+}

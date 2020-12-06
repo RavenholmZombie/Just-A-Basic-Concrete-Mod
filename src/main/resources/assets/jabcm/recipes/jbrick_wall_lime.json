@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "jabcm:jbrick_lime",
+			"data": 0
+        }
+    },
+    "result": {
+        "item": "jabcm:jbrick_wall_lime",
+        "count": 6
+    }
+}
