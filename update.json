@@ -1,17 +1,23 @@
 {
   "homepage": "http://rzmc.byethost12.com/mods/",
+  "1.16.4": {
+	"1.16.4-0.0.5": "Port of 0.0.5 for Minecraft 1.16.4"  
+  },
   "1.16.3": {
+	"1.16.3-0.0.5": "Port of 0.0.5 for Minecraft 1.16.3",  
 	"1.16.3-0.0.4": "Port of 0.0.4 for Minecraft 1.16.3"
   
   },  
   "1.12.2": {
+	"0.0.5": "Holiday Update",
 	"0.0.4": "Added Concrete Bricks",
     	"0.0.3": "Minor Bug Fix Update", 
 	"0.0.2": "Adds Concrete Fences and Slabs",
 	"0.0.1": "First Public Release"
   },
   "promos": {
-	"1.16.3-latest": "1.16.3-0.0.4",
-    	"1.12.2-recommended": "0.0.4"
+	"1.16.4-latest": "1.16.4-0.0.5",
+	"1.16.3-latest": "1.16.3-0.0.5",
+    	"1.12.2-recommended": "0.0.5"
   }
 }
