@@ -10,6 +10,7 @@ import net.minecraftforge.fml.common.SidedProxy;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
+import rz.mod.config.JABCMConfig;
 import rz.mod.proxy.CommonProxy;
 import rz.mod.tabs.JABCMBarriersTab;
 import rz.mod.tabs.JABCMTab;
@@ -26,6 +27,9 @@ public class Main
 	
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
 	public static CommonProxy proxy;
+	
+	// Config
+	public static File config;
 	
 	// Creative Tabs
 	public static final CreativeTabs JABCMTAB = new JABCMTab("jabcm_tab");
