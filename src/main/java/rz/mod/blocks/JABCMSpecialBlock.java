@@ -16,8 +16,11 @@ import net.minecraft.entity.monster.EntityGuardian;
 import net.minecraft.entity.monster.EntityMagmaCube;
 import net.minecraft.entity.monster.EntityMob;
 import net.minecraft.entity.monster.EntityPigZombie;
+import net.minecraft.entity.monster.EntityShulker;
 import net.minecraft.entity.monster.EntitySkeleton;
 import net.minecraft.entity.monster.EntitySlime;
+import net.minecraft.entity.monster.EntityStray;
+import net.minecraft.entity.monster.EntityVex;
 import net.minecraft.entity.monster.EntityWitherSkeleton;
 import net.minecraft.entity.monster.EntityZombie;
 import net.minecraft.entity.monster.EntityZombieVillager;
@@ -109,6 +112,10 @@ public class JABCMSpecialBlock extends Block implements IHasModel
 			if(entity instanceof EntityMagmaCube)
 			{
 				((EntityMagmaCube) entity).addPotionEffect(new PotionEffect(MobEffects.INSTANT_DAMAGE, 100, 100, true, true));
+			}
+			if(entity instanceof EntityStray)
+			{
+				((EntityStray) entity).addPotionEffect(new PotionEffect(MobEffects.INSTANT_HEALTH, 100, 100, true, true));
 			}
 		}
 	}

@@ -5,7 +5,15 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
+import net.minecraft.entity.monster.EntityMagmaCube;
 import net.minecraft.entity.monster.EntityMob;
+import net.minecraft.entity.monster.EntitySkeleton;
+import net.minecraft.entity.monster.EntitySlime;
+import net.minecraft.entity.monster.EntityStray;
+import net.minecraft.entity.monster.EntityWitherSkeleton;
+import net.minecraft.entity.monster.EntityZombie;
+import net.minecraft.entity.passive.EntitySkeletonHorse;
+import net.minecraft.entity.passive.EntityZombieHorse;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.MobEffects;
 import net.minecraft.potion.PotionEffect;
@@ -38,6 +46,39 @@ public class JABCMSpecialDoubleSlab extends BlockSlabBase
 			}else if(entity instanceof EntityMob)
 			{
 				((EntityMob) entity).addPotionEffect(new PotionEffect(MobEffects.INSTANT_DAMAGE, 10, 10, true, true));
+			}
+			
+			if(entity instanceof EntityZombie)
+			{
+				((EntityZombie) entity).addPotionEffect(new PotionEffect(MobEffects.INSTANT_HEALTH, 100, 100, true, true));
+			}
+			if(entity instanceof EntitySkeleton)
+			{
+				((EntitySkeleton) entity).addPotionEffect(new PotionEffect(MobEffects.INSTANT_HEALTH, 100, 100, true, true));
+			}
+			if(entity instanceof EntityZombieHorse)
+			{
+				((EntityZombieHorse) entity).addPotionEffect(new PotionEffect(MobEffects.INSTANT_HEALTH, 100, 100, true, true));
+			}
+			if(entity instanceof EntityWitherSkeleton)
+			{
+				((EntityWitherSkeleton) entity).addPotionEffect(new PotionEffect(MobEffects.INSTANT_HEALTH, 100, 100, true, true));
+			}
+			if(entity instanceof EntitySkeletonHorse)
+			{
+				((EntitySkeletonHorse) entity).addPotionEffect(new PotionEffect(MobEffects.INSTANT_HEALTH, 100, 100, true, true));
+			}
+			if(entity instanceof EntitySlime)
+			{
+				((EntitySlime) entity).addPotionEffect(new PotionEffect(MobEffects.INSTANT_DAMAGE, 100, 100, true, true));
+			}
+			if(entity instanceof EntityMagmaCube)
+			{
+				((EntityMagmaCube) entity).addPotionEffect(new PotionEffect(MobEffects.INSTANT_DAMAGE, 100, 100, true, true));
+			}
+			if(entity instanceof EntityStray)
+			{
+				((EntityStray) entity).addPotionEffect(new PotionEffect(MobEffects.INSTANT_HEALTH, 100, 100, true, true));
 			}
 		}
 	}
