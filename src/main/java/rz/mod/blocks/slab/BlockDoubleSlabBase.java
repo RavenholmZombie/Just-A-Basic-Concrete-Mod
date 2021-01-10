@@ -29,4 +29,22 @@ public class BlockDoubleSlabBase extends BlockSlabBase
 	{
 		return true;
 	}
+	
+	@Override
+	public ItemStack getItem(World worldIn, BlockPos pos, IBlockState state)
+	{
+		return new ItemStack(this.getBlockFromName("minecraft:stone"));
+	}
+	
+	@Override
+    public int quantityDropped(Random random)
+    {
+        return this.isDouble() ? 2 : 1;
+    }
+	
+	@Override
+    protected boolean canSilkHarvest()
+    {
+        return false;
+    }
 }
