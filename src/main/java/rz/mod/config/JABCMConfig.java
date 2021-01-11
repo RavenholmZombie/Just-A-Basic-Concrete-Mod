@@ -18,7 +18,7 @@ public final class JABCMConfig
 	public static boolean rainbowConcreteEffects = true;
 	
 	@Comment("Set to false to disable random quotes appearing during startup.")
-	public static boolean showQuotes = false;
+	public static boolean showQuotes = true;
 	
 	@Mod.EventBusSubscriber(modid = Reference.MOD_ID)
 	private static class EventHandler
