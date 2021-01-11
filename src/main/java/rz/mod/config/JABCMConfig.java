@@ -17,6 +17,9 @@ public final class JABCMConfig
 	@Comment("Set to false to disable all Rainbow Concrete potion effects.")
 	public static boolean rainbowConcreteEffects = true;
 	
+	@Comment("Set to false to disable random quotes appearing during startup.")
+	public static boolean showQuotes = false;
+	
 	@Mod.EventBusSubscriber(modid = Reference.MOD_ID)
 	private static class EventHandler
 	{

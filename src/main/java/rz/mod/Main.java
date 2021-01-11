@@ -45,7 +45,11 @@ public class Main
 	public static void init(FMLInitializationEvent event) 
 	{
 		System.out.println("[JABCM] Version " + Reference.VERSION + " loaded successfully");
-		Quotes.QuoteSelect();
+		
+		if(JABCMConfig.showQuotes)
+		{
+			Quotes.QuoteSelect();
+		}
 
 	}
 	@EventHandler
