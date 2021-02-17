@@ -1,19 +1,19 @@
 {
   "homepage": "http://rzmc.byethost12.com/mods/",
   "1.16.4": {
-	"1.16.4-0.0.6_A": "Brings new Concrete Brick textures from the 1.12.2 build."
+	"1.16.4-0.0.6_A": "Brings new Concrete Brick textures from the 1.12.2 build.",
 	"1.16.4-0.0.6": "Minor Bugfix Update",
 	"1.16.4-0.0.5": "Port of 0.0.5 for Minecraft 1.16.4"  
   },
   "1.16.3": {
-	"1.16.3-0.0.6_A": "Brings new Concrete Brick textures from the 1.12.2 build."
+	"1.16.3-0.0.6_A": "Brings new Concrete Brick textures from the 1.12.2 build.",
 	"1.16.3-0.0.6": "Minor Bugfix Update",
 	"1.16.3-0.0.5": "Port of 0.0.5 for Minecraft 1.16.3",  
 	"1.16.3-0.0.4": "Port of 0.0.4 for Minecraft 1.16.3"
   
   },  
   "1.12.2": {
-	"0.0.6_A": "Slab Fixes and new Concrete Brick textures."
+	"0.0.6_A": "Slab Fixes and new Concrete Brick textures.",
 	"0.0.6": "Minor Bugfix Update",
 	"0.0.5": "Holiday Update",
 	"0.0.4": "Added Concrete Bricks",
