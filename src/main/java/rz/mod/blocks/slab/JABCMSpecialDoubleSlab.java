@@ -1,8 +1,11 @@
 package rz.mod.blocks.slab;
 
+import java.util.Random;
+
 import net.minecraft.block.BlockSlab;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.state.IBlockState;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.monster.EntityMagmaCube;
@@ -15,15 +18,19 @@ import net.minecraft.entity.monster.EntityZombie;
 import net.minecraft.entity.passive.EntitySkeletonHorse;
 import net.minecraft.entity.passive.EntityZombieHorse;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Blocks;
 import net.minecraft.init.MobEffects;
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
 import net.minecraft.potion.PotionEffect;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import rz.mod.config.JABCMConfig;
+import rz.mod.init.ModBlocks;
 
 public class JABCMSpecialDoubleSlab extends BlockSlabBase
 {
-	public JABCMSpecialDoubleSlab(String name, Material material, BlockSlab half)
+	public JABCMSpecialDoubleSlab(String name, Material material, BlockSlab half, Enum color)
 	{
 		super(name, material, half);
 		setHardness(1.8F);
@@ -81,6 +88,36 @@ public class JABCMSpecialDoubleSlab extends BlockSlabBase
 				((EntityStray) entity).addPotionEffect(new PotionEffect(MobEffects.INSTANT_HEALTH, 100, 100, true, true));
 			}
 		}
+	}
+	
+	@Override
+	public ItemStack getItem(World worldIn, BlockPos pos, IBlockState state)
+	{
+		if(!this.getUnlocalizedName().contains("jbrick"))
+		{
+			return new ItemStack(ModBlocks.half_slab_special);
+		}
+		else if(this.getUnlocalizedName().contains("jbrick"))
+		{
+			return new ItemStack(ModBlocks.half_slab_jbrick_special);
+		}
+		
+		return new ItemStack(Blocks.STONE);
+	}
+	
+	@Override
+	public Item getItemDropped(IBlockState state, Random rand, int fortune)
+	{
+		if(this.getUnlocalizedName().contains("special") && !this.getUnlocalizedName().contains("jbrick"))
+		{
+			return Item.getItemFromBlock(ModBlocks.half_slab_special);
+		}
+		else if(this.getUnlocalizedName().contains("special") && this.getUnlocalizedName().contains("jbrick"))
+		{
+			return Item.getItemFromBlock(ModBlocks.half_slab_jbrick_special);
+		}
+		
+		return Item.getItemFromBlock(Blocks.STONE);
 	}
 	
 	@Override
