@@ -1,7 +1,7 @@
 package rz.mod;
 
 import java.io.File;
-import java.util.logging.Logger;
+import org.apache.logging.log4j.Logger;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
@@ -43,6 +43,7 @@ public class Main
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event) 
 	{
+		logger = event.getModLog();
 		logger.info("[JABCM] Version " + Reference.VERSION + " loading...");
 	}
 	@EventHandler
