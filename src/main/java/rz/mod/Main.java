@@ -1,6 +1,7 @@
 package rz.mod;
 
 import java.io.File;
+import java.util.logging.Logger;
 
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraftforge.fml.common.Mod;
@@ -28,6 +29,9 @@ public class Main
 	@SidedProxy(clientSide = Reference.CLIENT_PROXY_CLASS, serverSide = Reference.COMMON_PROXY_CLASS)
 	public static CommonProxy proxy;
 	
+	// Logger
+	public static Logger logger;
+	
 	// Config
 	public static File config;
 	
@@ -39,12 +43,12 @@ public class Main
 	@EventHandler
 	public static void PreInit(FMLPreInitializationEvent event) 
 	{
-		System.out.println("[JABCM] Version " + Reference.VERSION + " loading...");
+		logger.info("[JABCM] Version " + Reference.VERSION + " loading...");
 	}
 	@EventHandler
 	public static void init(FMLInitializationEvent event) 
 	{
-		System.out.println("[JABCM] Version " + Reference.VERSION + " loaded successfully");
+		logger.info("[JABCM] Version " + Reference.VERSION + " loaded successfully");
 		
 		if(JABCMConfig.showQuotes)
 		{
